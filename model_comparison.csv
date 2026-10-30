@@ -1,0 +1,7 @@
+Model Name,Training Time (s),Accuracy,Precision,Recall,F1 Score,Advantages,Limitations
+Logistic Regression,0.154,0.7991483321504613,0.6531986531986532,0.5187165775401069,0.5782414307004471,"Fast, simple, interpretable, good baseline","Assumes linear relationship, weak on complex patterns"
+Random Forest,1.082,0.7842441447835344,0.6143790849673203,0.5026737967914439,0.5529411764705883,"High accuracy, robust to overfitting, gives feature importance","Slower, less interpretable, larger memory"
+XGBoost,1.214,0.7821149751596878,0.6091205211726385,0.5,0.5491923641703378,"Very high accuracy, handles imbalance well","Many hyperparameters, can overfit if not tuned"
+KNN,0.098,0.7572746628814763,0.5421052631578948,0.5508021390374331,0.5464190981432361,"Simple, no training phase, works on non-linear data","Slow prediction on big data, sensitive to scaling/outliers"
+SVM,2.859,0.7885024840312278,0.6428571428571429,0.4572192513368984,0.534375,"Effective in high dimensions, flexible kernels","Slow on large datasets, hard to tune"
+Decision Tree,0.207,0.7338537970191625,0.4987012987012987,0.5133689839572193,0.5059288537549407,"Easy to understand/visualize, handles non-linear data","Overfits easily, unstable to small data changes"

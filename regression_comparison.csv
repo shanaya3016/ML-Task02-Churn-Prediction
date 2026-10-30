@@ -1,0 +1,7 @@
+Model Name,Training Time (s),MAE,MSE,RMSE,R2 Score,Advantages,Limitations
+Random Forest,3.79,54.30365652012045,6748.404178935276,82.1486711939717,0.9986940813319439,"High accuracy, robust to overfitting, gives feature importance","Slower, less interpretable, larger memory"
+XGBoost,0.247,61.579660869102234,8102.096509795506,90.01164652307781,0.9984321213131304,"Very high accuracy, handles imbalance well","Many hyperparameters, can overfit if not tuned"
+Decision Tree,0.154,86.29909311407268,16051.284714145599,126.69366485403127,0.9968938327049354,"Easy to understand/visualize, handles non-linear data","Overfits easily, unstable to small data changes"
+SVM (SVR),0.277,109.42175985409658,18321.006281477294,135.35511176707473,0.9964546071210084,"Effective in high dimensions, flexible kernels","Slow on large datasets, hard to tune"
+KNN,0.06,268.98703624733474,171684.47639530918,414.3482549683408,0.9667764471725159,"Simple, no training phase, works on non-linear data","Slow prediction on big data, sensitive to scaling/outliers"
+Linear Regression,0.223,523.9423516338436,433085.7516560851,658.0925099528828,0.9161913316155256,"Fast, simple, interpretable baseline for numeric targets","Assumes linear relationship, sensitive to outliers"
