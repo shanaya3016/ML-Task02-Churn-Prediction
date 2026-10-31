@@ -73,7 +73,7 @@ Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn (run on Google
 ## Files in this Repository
 | File | Description |
 |---|---|
-| `Task02_ML_Models.ipynb` | Full notebook with code and outputs |
+| `Task02_ML_Models(1).ipynb` | Full notebook with code and outputs |
 | `WA_Fn-UseC_-Telco-Customer-Churn.csv` | Dataset |
 | `model_comparison.csv` | Default classification models comparison |
 | `tuned_models.csv` | Tuned models results |
